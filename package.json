@@ -1,50 +1,26 @@
 {
-  "name": "koaTest",
-  "version": "0.0.1",
-  "description": "Testing Koa",
-  "author": "Pratham Agrawal <mail@prath.am>",
-  "scripts": {
-    "start": "node --harmony app.js"
+  "name": "launchpad",
+  "version": "0.0.0",
+  "description": "launch into developing apps without settings them up",
+  "main": "launchpad.js",
+  "bin": {
+    "launchpad": "launchpad.js"
   },
-  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodejitsu/browsenpm.org"
+    "url": "git://github.com/pagrawl3/launchpad.git"
   },
-  "keywords": [
-    "koa"
-  ],
+  "author": "Pratham Agrawal <mail@prath.am>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pagrawl3/launchpad/issues"
+  },
+  "homepage": "https://github.com/pagrawl3/launchpad",
   "dependencies": {
-    "axis": "^0.3.0",
-    "jade": "^1.7.0",
-    "koa": "^0.12.2",
-    "koa-bodyparser": "^1.0.1",
-    "koa-compress": "^1.0.8",
-    "koa-conditional-get": "^1.0.2",
-    "koa-etag": "^2.0.0",
-    "koa-favicon": "^1.2.0",
-    "koa-logger": "^1.2.2",
-    "koa-rewrite": "^1.1.0",
-    "koa-router": "^3.4.0",
-    "koa-static": "^1.4.7",
-    "node-watch": "^0.3.4",
-    "stylus": "^0.49.2"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "bower": "^1.3.12",
-    "browser-sync": "^1.5.8",
     "gulp": "^3.8.8",
-    "gulp-concat": "^2.4.1",
-    "gulp-filter": "^1.0.2",
-    "gulp-flatten": "0.0.4",
-    "gulp-imagemin": "^1.0.1",
-    "gulp-minify-css": "^0.3.10",
-    "gulp-nodemon": "^1.0.4",
-    "gulp-uglify": "^1.0.1",
-    "gulp-usemin": "^0.3.8",
-    "imagemin-pngcrush": "^1.0.0",
-    "main-bower-files": "^2.1.0",
-    "node-pow": "0.0.2"
+    "gulp-git": "^0.5.2"
   }
 }
