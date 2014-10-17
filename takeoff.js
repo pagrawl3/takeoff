@@ -15,7 +15,7 @@ module.exports = function() {
 	});
 
 	gulp.task('clone', function(){
-		return git.clone('https://github.com/pagrawl3/launchpad.git', function (err) {
+		return git.clone('https://github.com/pagrawl3/takeoff.git', function (err) {
 			if (err) throw err;
 			gulp.start('install');
 		})
@@ -23,13 +23,13 @@ module.exports = function() {
 	});
 
 	gulp.task('copy', function(){
-		return gulp.src(process.cwd()+'/launchpad/templates/koa/**/*')
+		return gulp.src(process.cwd()+'/takeoff/templates/koa/**/*')
 		.pipe(gulp.dest('.'))
 		
 	});
 
 	gulp.task('clean', ['copy'], function(cb) {
-		return del(['./launchpad'], cb);
+		return del(['./takeoff'], cb);
 	})
 
 	gulp.task('install', ['copy', 'clean'], function() {
