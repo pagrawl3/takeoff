@@ -1,5 +1,5 @@
 {
-  "name": "koaTest",
+  "name": "launchpad",
   "version": "0.0.1",
   "description": "Testing Koa",
   "author": "Pratham Agrawal <mail@prath.am>",
@@ -9,11 +9,9 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodejitsu/browsenpm.org"
+    "url": "git://github.com/pagrawl3/launchpad.git"
   },
-  "keywords": [
-    "koa"
-  ],
+  "keywords": ["Launchpad", "Scaffold", "Gulp"],
   "dependencies": {
     "axis": "^0.3.0",
     "jade": "^1.7.0",
@@ -44,6 +42,7 @@
     "gulp-uglify": "^1.0.1",
     "gulp-usemin": "^0.3.8",
     "imagemin-pngcrush": "^1.0.0",
+    "imagemin-optipng": "*",
     "main-bower-files": "^2.1.0",
     "node-pow": "0.0.2"
   }
