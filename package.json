@@ -1,24 +1,24 @@
 {
-  "name": "launchpad",
+  "name": "takeoff",
   "version": "0.0.0",
   "description": "launch into developing apps without settings them up",
-  "main": "launchpad.js",
+  "main": "takeoff.js",
   "bin": {
-    "launchpad": "launchpad.js"
+    "takeoff": "takeoff.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/pagrawl3/launchpad.git"
+    "url": "git://github.com/pagrawl3/takeoff.git"
   },
   "author": "Pratham Agrawal <mail@prath.am>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pagrawl3/launchpad/issues"
+    "url": "https://github.com/pagrawl3/takeoff/issues"
   },
-  "homepage": "https://github.com/pagrawl3/launchpad",
+  "homepage": "https://github.com/pagrawl3/takeoff",
   "dependencies": {
     "del": "^0.1.3",
     "gulp": "^3.8.8",

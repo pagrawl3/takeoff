@@ -1,5 +1,5 @@
 {
-  "name": "launchpad",
+  "name": "Takeoff App",
   "version": "0.0.1",
   "description": "Testing Koa",
   "author": "Pratham Agrawal <mail@prath.am>",
@@ -9,7 +9,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pagrawl3/launchpad.git"
+    "url": "git://github.com/pagrawl3/takeoff.git"
   },
   "keywords": ["Launchpad", "Scaffold", "Gulp"],
   "dependencies": {
