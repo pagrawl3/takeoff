@@ -1,7 +1,7 @@
 {
   "name": "takeoff",
-  "version": "0.0.0",
-  "description": "launch into developing apps without settings them up",
+  "version": "0.0.1",
+  "description": "Launch into developing apps without settings them up",
   "main": "takeoff.js",
   "bin": {
     "takeoff": "takeoff.js"
