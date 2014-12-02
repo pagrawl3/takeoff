@@ -12,13 +12,13 @@ setup
 Make sure you have node and npm installed (node >= v.0.11.13)
 * Globally install the liftoff module.
 ```bash
-npm install -g liftoff
+npm install -g takeoff
 ```
 * Instant scaffolding by using the liftoff CLI tool
 ```bash
 mkdir myApp
 cd myApp
-liftoff
+takeoff
 ```
 * After installation launch your application using gulp
 ```bash
